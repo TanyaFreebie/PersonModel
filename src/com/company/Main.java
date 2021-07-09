@@ -45,6 +45,8 @@ public class Main {
         System.out.println("Name " + id.getName());
         System.out.println("Gender " +id.getGender());
         System.out.println("Age " + id.getAge());
+        System.out.println("Height" + id.getHeight());
+        System.out.println("Weight" + id.getWeight());
         id.talking();
         id.complexion();
 

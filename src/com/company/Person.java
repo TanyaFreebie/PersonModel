@@ -59,15 +59,16 @@ public class Person {
     public void talking(){
         if(age <=2){
             switch(talk){
-                case "Y":
-                    System.out.println("That kid probably is a genius!");
-                case "N":
+                case "y":
+                    System.out.println("That kid probably is a talking genius!");
+                    break;
+                case "n":
                     System.out.println("Talking ability develops by the age of 5, so it's fine");
             break;
             }
         } else {
             switch (talk){
-                case "N":
+                case "n":
                     System.out.println("If person doesn't talks there must be an issue");
                     break;
                 default:
